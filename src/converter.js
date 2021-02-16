@@ -48,7 +48,7 @@ function readPage(html) {
     //끝에 주석 추가
     const comment = notiondoc.createElement("div");
     comment.classList.add("n2t_comment");
-    comment.innerHTML = `<p>\n</p><p class="block-color-gray"><a href="${HOMEPAGE}">Uploaded by Notion2Tistory v${APP_VERSION}</a></p>`;
+    //comment.innerHTML = `<p>\n</p><p class="block-color-gray"><a href="${HOMEPAGE}">Uploaded by Notion2Tistory v${APP_VERSION}</a></p>`;
 
     article.querySelector("div.page-body").appendChild(comment);
 
